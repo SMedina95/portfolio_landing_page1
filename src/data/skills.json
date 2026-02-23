@@ -1,0 +1,40 @@
+{
+  "skills": [
+    {
+      "name": "Sistemas de Información Geográfica",
+      "level": "Avanzado"
+    },
+    {
+      "name": "Gestión Ambiental",
+      "level": "Avanzado"
+    },
+    {
+      "name": "Análisis de Datos",
+      "level": "Intermedio"
+    },
+    {
+      "name": "Programación en Python",
+      "level": "Intermedio"
+    },
+    {
+      "name": "Desarrollo Web",
+      "level": "Intermedio"
+    },
+    {
+      "name": "Modelado 3D",
+      "level": "Básico"
+    },
+    {
+      "name": "Gestión de Proyectos",
+      "level": "Intermedio"
+    },
+    {
+      "name": "Trabajo en Equipo",
+      "level": "Avanzado"
+    },
+    {
+      "name": "Comunicación Efectiva",
+      "level": "Avanzado"
+    }
+  ]
+}

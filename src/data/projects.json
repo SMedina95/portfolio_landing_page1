@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Proyecto de Restauración de Ecosistemas",
+        "description": "Desarrollo de un plan integral para la restauración de ecosistemas degradados en la región X, utilizando técnicas de reforestación y conservación de suelos.",
+        "link": "https://www.ejemplo.com/proyecto-restauracion"
+    },
+    {
+        "title": "Sistema de Monitoreo Ambiental",
+        "description": "Implementación de un sistema de monitoreo ambiental utilizando SIG para la gestión de recursos hídricos en la cuenca Y.",
+        "link": "https://www.ejemplo.com/sistema-monitoreo"
+    },
+    {
+        "title": "Evaluación de Impacto Ambiental",
+        "description": "Realización de un estudio de impacto ambiental para un proyecto de infraestructura, analizando los efectos potenciales sobre la biodiversidad local.",
+        "link": "https://www.ejemplo.com/evaluacion-impacto"
+    },
+    {
+        "title": "Desarrollo de Aplicaciones Web para la Sostenibilidad",
+        "description": "Creación de aplicaciones web que promueven prácticas sostenibles en comunidades, facilitando el acceso a información ambiental.",
+        "link": "https://www.ejemplo.com/aplicaciones-sostenibilidad"
+    },
+    {
+        "title": "Investigación sobre Energías Renovables",
+        "description": "Estudio sobre la viabilidad de implementar energías renovables en la región Z, incluyendo análisis de costos y beneficios.",
+        "link": "https://www.ejemplo.com/energias-renovables"
+    }
+]

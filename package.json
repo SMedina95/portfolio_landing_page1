@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page portfolio for an environmental engineer with a master's in integrated environmental management, specializing in geographic information systems.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process can be defined here.'"
+  },
+  "keywords": [
+    "portfolio",
+    "environmental engineering",
+    "geographic information systems",
+    "sustainability"
+  ],
+  "author": "Nombre de la Ingeniera",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
