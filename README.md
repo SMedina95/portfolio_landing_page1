@@ -7,56 +7,80 @@ Este proyecto es una landing page profesional diseñada para una ingeniera ambie
 El proyecto está organizado de la siguiente manera:
 
 ```
+# Stephanie Elizabeth Medina Ponce — Portfolio Landing Page
+
+Landing page estática creada para una profesional en Ingeniería Ambiental. Diseño minimalista, accesible y mobile-first.
+
+## Descripción rápida
+
+Esta versión incluye una refactorización del HTML y CSS para mejorar la experiencia UX/UI, accesibilidad y rendimiento.
+
+### Cambios clave (antes → ahora)
+
+- Encabezado: introducción del nombre completo y CTA accesible en primer pliegue.
+- Estilos: sistema de variables CSS, tipografías `Inter` (cuerpo) y `Montserrat` (títulos), y espaciado uniforme.
+- Contenido: añadidas habilidades técnicas (AutoCAD, QGIS, ArcMap, Estudios de Impacto Ambiental, Inglés C1) y formación académica; eliminada la sección de proyectos destacados.
+
+## Estructura del proyecto
+
+```
 portfolio-landing-page
-├── src
-│   ├── index.html          # Estructura principal de la landing page
-│   ├── styles              # Carpeta que contiene los estilos CSS
-│   │   ├── main.css        # Estilos generales
-│   │   ├── hero.css        # Estilos para la sección Hero
-│   │   ├── about.css       # Estilos para la sección Sobre mí
-│   │   ├── skills.css      # Estilos para la sección de Habilidades técnicas
-│   │   ├── projects.css     # Estilos para la sección de Proyectos destacados
-│   │   ├── education.css    # Estilos para la sección de Formación académica
-│   │   └── contact.css      # Estilos para la sección de Contacto
-│   ├── js                  # Carpeta que contiene los scripts JavaScript
-│   │   ├── main.js         # Código JavaScript principal
-│   │   ├── scroll.js       # Manejo del desplazamiento suave
-│   │   └── form.js         # Lógica para el formulario de contacto
-│   ├── assets              # Carpeta que contiene recursos estáticos
-│   │   └── fonts           # Fuentes personalizadas
-│   └── data                # Carpeta que contiene datos en formato JSON
-│       ├── projects.json   # Información sobre proyectos destacados
-│       └── skills.json     # Información sobre habilidades técnicas
-├── package.json            # Configuración para npm
-├── .gitignore              # Archivos y directorios a ignorar por Git
-└── README.md               # Documentación del proyecto
+├── src/
+│   ├── index.html        # HTML principal (semántico, mobile-first)
+│   ├── styles/           # CSS por secciones (main.css + específicas)
+│   ├── js/               # Scripts (main, scroll, form)
+│   ├── data/             # JSON de datos (skills, projects)
+│   └── assets/           # Imágenes y fuentes
+├── package.json
+└── README.md
 ```
 
-## Instalación
+## Cómo ver localmente
 
-1. Clona el repositorio en tu máquina local:
-   ```
-   git clone <URL_DEL_REPOSITORIO>
-   ```
+1. Abrir `src/index.html` directamente en el navegador, o usar un servidor local para rutas correctas:
 
-2. Navega al directorio del proyecto:
-   ```
-   cd portfolio-landing-page
-   ```
+```bash
+# con Python 3 en la carpeta raíz del proyecto
+python -m http.server 8000
+# o con npm (si tienes `serve` instalado)
+npx serve .
+```
 
-3. Instala las dependencias necesarias:
-   ```
-   npm install
-   ```
+Visita `http://localhost:8000/src/index.html` si usas `http.server`.
 
-## Uso
+## Despliegue a GitHub Pages (sugerencia)
 
-Para iniciar el proyecto, abre el archivo `src/index.html` en tu navegador. La página está diseñada para ser responsiva y se verá bien en dispositivos móviles y de escritorio.
+1. Crear repositorio en GitHub.
+2. Añadir remoto y pushear:
 
-## Contribuciones
+```bash
+git remote add origin git@github.com:TU_USUARIO/REPO.git
+git push -u origin main
+```
 
-Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor abre un issue o envía un pull request.
+3. En la configuración del repositorio, activar GitHub Pages desde la rama `main` y la carpeta `/` o `/src` según prefieras.
+
+## Notas técnicas & guía rápida de estilos
+
+- Paleta: fondo neutro, `--accent: #0ea5a4` para CTAs, texto oscuro para contraste.
+- Tipografías: `Inter` para cuerpo, `Montserrat` para títulos (importadas desde Google Fonts).
+- Breakpoints: mobile-first (480px, 768px, 1024px).
+- Accesibilidad: enfoque visible, `prefers-reduced-motion`, y contrastes pensados para WCAG AA.
+- Performance: evitar librerías pesadas; optimizar imágenes antes del despliegue.
+
+## Antes / Después (resumen: 3 mejoras visibles)
+
+1. Claridad del CTA — ahora visible en primer pliegue con botón con alto contraste.
+2. Jerarquía tipográfica — títulos y cuerpos diferenciados por familia y peso.
+3. Espaciado y legibilidad — más espacio en blanco y anchura de lectura limitada.
+
+## Contribuir
+
+Si quieres contribuir, abre un issue o envía un pull request. Para cambios grandes, crea una rama descriptiva y añade notas de prueba manual (contraste, foco, navegación por teclado).
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+Proyecto con licencia MIT.
+
+---
+Actualizado: 22 de febrero de 2026
